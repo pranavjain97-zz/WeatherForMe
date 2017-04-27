@@ -15,15 +15,19 @@
  */
 package com.example.android.sunshine;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.android.sunshine.data.SunshinePreferences;
 import com.example.android.sunshine.utilities.NetworkUtils;
@@ -34,9 +38,11 @@ import org.json.JSONException;
 import java.io.IOException;
 import java.net.URL;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ForecastAdapter.ForecastAdapterOnClickHandler {
 
-    private TextView mWeatherTextView;
+    private RecyclerView mRecyclerView;
+    private ForecastAdapter mForecastAdapter;
+//    private TextView mWeatherTextView;
     private TextView errorMessage;
     private ProgressBar loadingIcon;
 
@@ -45,16 +51,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forecast);
 
-        mWeatherTextView = (TextView) findViewById(R.id.tv_weather_data);
+        mRecyclerView=(RecyclerView) findViewById(R.id.recyclerview_forecast);
+//        mWeatherTextView = (TextView) findViewById(R.id.tv_weather_data);
         errorMessage=(TextView) findViewById(R.id.error_msg);
         loadingIcon=(ProgressBar) findViewById(R.id.progressBar);
+
+
+/** Setting up the main Recycler View*/
+        LinearLayoutManager layoutManager=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
+        mRecyclerView.setLayoutManager(layoutManager);
+        mRecyclerView.setHasFixedSize(true);
+        mForecastAdapter=new ForecastAdapter(this);
+        mRecyclerView.setAdapter(mForecastAdapter);
+
         loadWeatherData();
 
     }
 
     public void showWeatherTextView() {
 
-        mWeatherTextView.setVisibility(View.VISIBLE);
+        mRecyclerView.setVisibility(View.VISIBLE);
         errorMessage.setVisibility(View.INVISIBLE);
 
 
@@ -63,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
     public void showErrorMessage() {
 
         errorMessage.setVisibility(View.VISIBLE);
-        mWeatherTextView.setVisibility(View.INVISIBLE);
+        mRecyclerView.setVisibility(View.INVISIBLE);
 
     }
 
@@ -75,7 +91,16 @@ public class MainActivity extends AppCompatActivity {
         new perform_networkTasks().execute(location);
 
     }
-/* Performs Networking tasks asynchronously*/
+
+    @Override
+    public void clickHandler(String weatherForDay) {
+        Context context=this;
+        Toast.makeText(context,weatherForDay,Toast.LENGTH_SHORT)
+             .show();
+
+    }
+
+    /** Performs Networking tasks asynchronously*/
 
     public class perform_networkTasks extends AsyncTask<String, Void, String[]> {
 
@@ -113,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
                 return null;
-            } catch (JSONException e) {
+            }  catch (JSONException e) {
                 e.printStackTrace();
             }
 
@@ -129,11 +154,13 @@ public class MainActivity extends AppCompatActivity {
             if (results != null) {
                showWeatherTextView();
 
-                for (String weatherData : results) {
+//                for (String weatherData : results) {
+//
+//                    mWeatherTextView.append((weatherData) + "\n\n\n");
+//
+//                }
 
-                    mWeatherTextView.append((weatherData) + "\n\n\n");
-
-                }
+                mForecastAdapter.setWeatherData(results);
                 loadingIcon.setVisibility(View.INVISIBLE);
 
             }else{
@@ -160,7 +187,8 @@ public class MainActivity extends AppCompatActivity {
         int menuItemSelected=item.getItemId();
         if(menuItemSelected==R.id.action_refresh){
             System.out.print("YO");
-            mWeatherTextView.setText("");
+//            mWeatherTextView.setText("");
+            mForecastAdapter.setWeatherData(null);
             loadWeatherData();
             return true;
         }
