@@ -5,7 +5,12 @@
     <item
         android:id="@+id/action_refresh"
         android:title="@string/refresh"
-        android:orderInCategory="1"
+        android:orderInCategory="2"
         app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="Map"
+        android:orderInCategory="1"/>
+
 
 </menu>

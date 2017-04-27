@@ -3,102 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_0beb8835e7de2833899795cee14a64114b7a97c1.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_ee1ab00925c408eb252e56d37db48cbeabfee720.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_9fe1d1e4e1edc398b1607c8ae2138098c932e94e.jar" />
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_9609f87939f4618367f7a67d8601c2ec48661d56.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_b436fabbaeddd0777477c681510b1c0a8225676b.jar" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_852e4cb4c0d67837c992a6ba54896dbd9b3b5a1d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_d1ab47f113b198f70fb50858707717b2f28930b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_02fcac7e165b4470d257a471ab25d0fc6e1196e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_765ebf443d85d01f559e6b63c0c2311b88a096c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_31f678c336be60ba66dbbb314fa6724721f4ae6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_fe00efbc206b3eef33dbff01fe1b57299b6e1c10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_f935a1a1c7e498ba7b8fb368b704ed9f637e7cb2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_6749668c07158a8e7a5b556041b9a6c7caa4f95a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha7_446866bb752cd016c0d73f529fcf1d526e44e2b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_64bf2a38616532055b2fe8c3f93c4fe6a9f5b50c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_16164686c05dc9767a3447d95095728539097a9e.jar" />
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_fca8ed0bd29ced8d7292a885c1d6f4a89c42c882.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_774d77d747489ba50b3012b561e79374a54e356b.jar" />
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_9483df6a5e01b20a781c1c3cf7e591964641f3a9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_0f5660fd3fd35b0d9b91191d83c64edd6130f44a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_abbc765634c74509a9b10d0b2776cb4bf96470f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_cab68bfb3c153ab938c243df8a78c762d1cc7383.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/pranav/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_23ab11ec727adf0026c4bc4755f8e551f5bc6296.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_1377f28d0f6437eec1dc11cae013b262503cf831.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/pranav/Documents/WeatherForMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_79182bc9bcc3ec7bb01ac272d80f401c63deaf54.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/pranav/Documents/WeatherForMe/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_0e0a6ccb15a820a5e458e3f8d218e552bae924c8.jar" />
     </item>
 
 </items>
